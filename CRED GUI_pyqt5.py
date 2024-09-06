@@ -22,8 +22,8 @@ class MyWindow(qtw.QWidget):
     def __init__(self):
         # super(MyWindow, self).__init__()
         super().__init__()
-        self.init_tem(virtual=True) # virtual microscope
-        # self.init_tem(virtual=True) # real microscope
+        # self.init_tem(virtual=True) # virtual microscope
+        self.init_tem(virtual=True) # real microscope
         self.init_ui()
         
     def init_tem(self, virtual=True):
